@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
                           break a secret code created by a code-maker. The code-maker,
                           which will be played by the application we’re going to write,
                           creates a secret code of four numbers between 1 and 6.}
-  spec.homepage      = "https://github.com/anton-chernets"
+  spec.homepage      = "https://github.com/anton-chernets/rg_codebreaker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
