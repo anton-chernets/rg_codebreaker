@@ -3,7 +3,7 @@ module Codebreaker
   class Game
     JSON_SCORE_FILE = 'score.json'
     AMOUNT_NUMBERS = 4
-    AMOUNT_ATTEMPTS = 10
+    AMOUNT_ATTEMPTS = 5
     AMOUNT_HINT = 1
 
     def initialize
@@ -20,7 +20,7 @@ module Codebreaker
       @current_attempts = decrement_by_one(@current_attempts)
       if full_match(string_convert_to_array(given_code))
         true
-      elsif @current_attempts.zero?
+      elsif @current_attempts <= 0
         false
       else
         partial_match(string_convert_to_array(given_code)).to_s
@@ -45,7 +45,7 @@ module Codebreaker
       result[:name] = @configuration.player_name.to_s
       result[:score] = @current_attempts
       result[:code] = @secret_code
-      result[:date] = Time.now
+      result[:date] = Date.today.to_s
 
       dump = []
       dump = reading_information if reading_information
