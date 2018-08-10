@@ -13,13 +13,13 @@ RSpec.configure do |config|
   end
 
   def get_codes
-    array = [{ code: '1335', secret_code: '1134', res: '+-+' },
+    array = [{ code: '1335', secret_code: '1134', res: '++-' },
              { code: '6464', secret_code: '6141', res: '+---' },
              { code: '5412', secret_code: '5431', res: '++-' },
-             { code: '6565', secret_code: '5566', res: '-++-' },
+             { code: '6565', secret_code: '5566', res: '++--' },
              { code: '3124', secret_code: '3312', res: '+--' },
              { code: '5263', secret_code: '6344', res: '--' },
-             { code: '6134', secret_code: '3614', res: '---+' },
+             { code: '6134', secret_code: '3614', res: '+---' },
              { code: '6321', secret_code: '1632', res: '----' },
              { code: '5412', secret_code: '3466', res: '+' },
              { code: '5463', secret_code: '1232', res: '-' },
