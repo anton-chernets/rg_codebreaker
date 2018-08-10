@@ -75,7 +75,7 @@ module Codebreaker
         char = ''
         char = '-' if @secret_code.include? value
         char = '+' if @secret_code[index] == value
-        result += char
+        char == '-' ? result += char : result = (char += result)
       end
 
       result
