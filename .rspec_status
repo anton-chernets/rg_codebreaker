@@ -1,0 +1,22 @@
+example_id                                    | status | run_time        |
+--------------------------------------------- | ------ | --------------- |
+./spec/codebreaker/game_spec.rb[1:1:1:1]      | passed | 0.0072 seconds  |
+./spec/codebreaker/game_spec.rb[2:1:1:1]      | passed | 0.00078 seconds |
+./spec/codebreaker/game_spec.rb[2:2:1]        | passed | 0.00013 seconds |
+./spec/codebreaker/game_spec.rb[2:2:2]        | passed | 0.00013 seconds |
+./spec/codebreaker/game_spec.rb[2:2:3]        | passed | 0.00105 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:1]      | passed | 0.00021 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:2]      | passed | 0.00018 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:3]      | passed | 0.00016 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:4]      | passed | 0.00018 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:5]      | passed | 0.00013 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:6]      | passed | 0.00011 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:7]      | passed | 0.00014 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:8]      | passed | 0.00011 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:9]      | passed | 0.00012 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:10]     | passed | 0.0001 seconds  |
+./spec/codebreaker/game_spec.rb[2:2:4:11]     | passed | 0.00011 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:12]     | passed | 0.00012 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:13]     | passed | 0.00013 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:14]     | passed | 0.00097 seconds |
+./spec/codebreaker/game_spec.rb[2:2:4:15:1:1] | passed | 0.00032 seconds |
